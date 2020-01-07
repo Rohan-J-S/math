@@ -1,0 +1,6 @@
+a = float(input("enter value of coefficient of x**2: "))
+b = float(input("enter value of coefficient of x: "))
+c = float(input("enter constant value to make the equation equal to 0: "))
+root1 = ((-b+(b**2-(4*a*c))**(1/2))/(2*a))
+root2 = ((-b-(b**2-(4*a*c))**(1/2))/(2*a))
+print ("the roots of the equation are ",root1," and ",root2)
